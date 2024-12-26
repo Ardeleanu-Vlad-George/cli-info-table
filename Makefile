@@ -1,5 +1,5 @@
 
-OBJ := obj/main.o obj/io.o
+OBJ := obj/main.o obj/io.o obj/comp.o
 
 TRG := out/cliinfotable
 
