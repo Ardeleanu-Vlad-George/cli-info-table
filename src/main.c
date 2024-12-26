@@ -14,6 +14,8 @@ int main(int argc, char* argv[]){
     log_cla_err(stderr, argc-1, MIN_CLA_COUNT);
     return -1;
   }
-  table(stdout, atoi(argv[1]), argc-2, argv+2);
+  char *table = make_spaced_table(atoi(argv[1]), argc-2, argv+2);
+  printf("%s", table);
+  free(table);
   return 0;
 }

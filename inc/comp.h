@@ -3,6 +3,6 @@
 
 #include <stdio.h>
 
-FILE* table(FILE*, int, int, char*[]);
+char* make_spaced_table(int, int, char*[]);
 
 #endif//_COMP_H_
